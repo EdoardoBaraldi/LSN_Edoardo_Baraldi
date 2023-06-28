@@ -1,0 +1,26 @@
+125
+2000
+0
+0
+0
+1
+1
+10
+5
+10000
+30
+20
+
+  
+  ReadInput >> nblk;
+  ReadInput >> nstep;
+  ReadInput >> restart; 0=No 1=Yes
+  ReadInput >> find_width; 0=No 1=Yes
+  ReadInput >> equilibration; 0=No 1=Yes
+  ReadInput >> SA; 0=No 1=Yes
+  ReadInput >> beta;
+  ReadInput >> mu_inital;
+  ReadInput >> sigma_initial;
+  ReadInput >> J;
+  ReadInput >> I;
+  ReadInput >> delta;

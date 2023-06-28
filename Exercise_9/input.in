@@ -1,0 +1,18 @@
+1000000
+34
+100
+0
+0.1	0.1	0.1	0.1
+0.6
+0.2
+1
+ 
+  
+  ReadInput >> generations;
+  ReadInput >> n_cities;
+  ReadInput >> n_cromosomes;
+  ReadInput >> restart; 0=No 1=Yes
+  ReadInput >> prob_mut[0] >> prob_mut[1] >> prob_mut[2] >> prob_mut[3];
+  ReadInput >> prob_cros;
+  ReadInput >> prob_selec;
+  ReadInput >> Circ_Square; 0=Square 1=Circ
